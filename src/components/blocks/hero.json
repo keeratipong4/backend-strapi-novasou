@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_blocks_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "crown",
+    "description": "Hero section"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "subheadline": {
+      "type": "text"
+    },
+    "ctaText": {
+      "type": "string",
+      "description": "Primary CTA Text"
+    },
+    "ctaLink": {
+      "type": "string",
+      "description": "Primary CTA Link"
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "split"
+      ],
+      "default": "center"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.link"
+    }
+  }
+}

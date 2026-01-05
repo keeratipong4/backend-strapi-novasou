@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_testimonials_lists",
+  "info": {
+    "displayName": "Testimonials List",
+    "icon": "smile",
+    "description": "List of testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": [
+        "grid",
+        "carousel"
+      ],
+      "default": "grid"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.testimonial"
+    }
+  }
+}

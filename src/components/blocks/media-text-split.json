@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_media_text_splits",
+  "info": {
+    "displayName": "Media Text Split",
+    "icon": "columns",
+    "description": "Text with media side-by-side"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "alignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left"
+    }
+  }
+}
